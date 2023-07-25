@@ -25,3 +25,6 @@ full_name = lambda name, last_name: f'Full name is {name.title()} {last_name.tit
 
 text = full_name('patricia', 'velazquez')
 print(text)
+
+#Llamar directamente a LAMBDA
+print((lambda x : x * 2)(3))
